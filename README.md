@@ -14,6 +14,8 @@ Run an Keepfit is an app built for the sole purpose of Fit ness tracking. It Bas
 
 ### Features
 
+
+
 This app uses the following technologies:
 
 > Kotlin - core language
@@ -27,6 +29,10 @@ This app uses the following technologies:
 >Glide -Image Processing library
 
 >Dagger-Hilt- Dipendency Injection
+
+>Navigation Components - Managing navigation backstacks 
+
+
 
 
 

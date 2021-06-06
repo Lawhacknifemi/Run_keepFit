@@ -22,7 +22,8 @@ This app uses the following technologies:
 
 > Room DB - Offline local persistence
 
->Easy Permission  [https://github.com/googlesamples/easypermissions]- 
+>[Eassy Permission]  (https://github.com/googlesamples/easypermissions)
+
 
 The app only acts as a guide on how to use this components. You can refer to the relevant documentation from the official Android Documentation. 
 

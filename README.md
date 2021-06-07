@@ -1,3 +1,4 @@
+![Screenshot_20210607-133930](https://user-images.githubusercontent.com/64317588/121030178-1a7a2d80-c75e-11eb-80ab-4d4fc27a189c.png)
 ![Screenshot_20210607-133704](https://user-images.githubusercontent.com/64317588/121028326-96737600-c75c-11eb-80d1-c76fb654843c.png)
 # Run_keepFit
 
@@ -38,7 +39,7 @@ This app uses the following technologies:
 
 ## Screenshots
 
-|![Screenshot_20210607-133728](https://user-images.githubusercontent.com/64317588/121029590-9031c980-c75d-11eb-8a72-f33c1747b33c.png)|![Dark Theme](screenshots/settings.gif)|
+|![Screenshot_20210607-133728](https://user-images.githubusercontent.com/64317588/121029590-9031c980-c75d-11eb-8a72-f33c1747b33c.png)|![Screenshot_20210607-133930](https://user-images.githubusercontent.com/64317588/121030178-1a7a2d80-c75e-11eb-80ab-4d4fc27a189c.png)|
 |:--:|:--:|
 
 

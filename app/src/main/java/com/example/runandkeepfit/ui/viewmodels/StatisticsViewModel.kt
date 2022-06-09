@@ -1,10 +1,10 @@
 package com.example.runandkeepfit.ui.viewmodels
 
-import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.ViewModel
 import com.example.runandkeepfit.repositories.MainRepository
+import javax.inject.Inject
 
-class StatisticsViewModel @ViewModelInject constructor(
+class StatisticsViewModel @Inject constructor(
         val mainRepository: MainRepository
 ) :ViewModel(){
 

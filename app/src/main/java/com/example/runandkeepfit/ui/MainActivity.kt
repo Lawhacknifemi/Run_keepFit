@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
         navigateToTrackingFragmentIfNeeded(intent)
 
-        setSupportActionBar(binding.toolbar)
+//        setSupportActionBar(binding.toolbar)
 
 
         val navHostFragment = supportFragmentManager.findFragmentById(

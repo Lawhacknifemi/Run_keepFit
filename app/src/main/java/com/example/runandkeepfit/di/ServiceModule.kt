@@ -3,6 +3,8 @@ package com.example.runandkeepfit.di
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import com.example.runandkeepfit.R
 import com.example.runandkeepfit.others.Constants
@@ -25,6 +27,7 @@ object ServiceModule {
             = FusedLocationProviderClient(app)
 
 
+    @RequiresApi(Build.VERSION_CODES.M)
     @ServiceScoped
     @Provides
     fun provideMainActivityPendingIntent(@ApplicationContext app:Context) = PendingIntent.getActivity(
@@ -33,7 +36,7 @@ object ServiceModule {
             Intent(app, MainActivity::class.java).also {
                 it.action = Constants.ACTION_SHOW_TRACKING_INTENT
             },
-            PendingIntent.FLAG_UPDATE_CURRENT
+            PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT
     )
 
 

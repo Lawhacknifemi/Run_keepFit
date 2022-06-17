@@ -30,9 +30,10 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(binding.root)
 
+        setSupportActionBar(binding.toolbar)
+
         navigateToTrackingFragmentIfNeeded(intent)
 
-//        setSupportActionBar(binding.toolbar)
 
 
         val navHostFragment = supportFragmentManager.findFragmentById(
